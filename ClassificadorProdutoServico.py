@@ -6,9 +6,9 @@ import nltk
 from nltk.corpus import stopwords
 from sklearn.externals import joblib
 
-nltk.download('stopwords')
-nltk.download('rslp')
-nltk.download('punkt')
+#nltk.download('stopwords')
+#nltk.download('rslp')
+#nltk.download('punkt')
 
 #carregando o modelo em memoria
 modelo = joblib.load('modelo/modelo_produto_27.pkl')
