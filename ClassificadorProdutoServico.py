@@ -89,16 +89,17 @@ def predict():
     # -----------------------------------------------------------------------------------
         resultado.append( {'codProduto': str(codProdutos[0]),
                            'descProduto':  textoPredicao,
-                           'acuracia' : round(proba[0]*100,2),
-                           'outros': [{
-                                       'produto': str(codProdutos[1]),
-                                       'acuracia': round(proba[1]*100,2)
-                                       },
-                                       {
-                                        'produto': str(codProdutos[2]),
-                                        'acuracia': round(proba[2]* 100,2)
-                                       }
-                                      ]
+                           'acuracia' : round(proba[0]*100,2)
+                           #,
+                           #'outros': [{
+                           #            'produto': str(codProdutos[1]),
+                           #            'acuracia': round(proba[1]*100,2)
+                           #            },
+                           #            {
+                           #             'produto': str(codProdutos[2]),
+                           #             'acuracia': round(proba[2]* 100,2)
+                           #            }
+                           #           ]
                            })
 
     return jsonify(resultado)
