@@ -60,7 +60,7 @@ def worker(ITEM_DESC, TARGET, line):
 # Instancia o Flask
 app = Flask(__name__)
 
-@app.route('/definition', methods=['POST'])
+@app.route('/definition', methods=['GET'])
 def definition():
     definition = "API REST que retorna um post contendo a classificação dos produtos de peças e acessórios com base na" \
                  "descrição dos itens da NF-e."
