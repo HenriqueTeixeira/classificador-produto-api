@@ -1,3 +1,0 @@
-stopwords
-rslp
-punkt
