@@ -1,4 +1,10 @@
 <application>
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts />
+  </component>
   <component name="VimSettings">
     <state version="7" enabled="true" />
     <notifications>
