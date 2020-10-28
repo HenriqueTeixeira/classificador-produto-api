@@ -64,7 +64,7 @@ app = Flask(__name__)
 def definition():
     definition = "API REST que retorna um post contendo a classificação dos produtos de peças e acessórios com base na" \
                  "descrição dos itens da NF-e."
-
+    return definition
 
 @app.route('/predict', methods=['POST'])
 def predict():
